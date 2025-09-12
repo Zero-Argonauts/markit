@@ -1,1 +1,1 @@
-# acadence
+<h1 align="center">Acadence - Smartest Way of Tracking Attendance</h1>
