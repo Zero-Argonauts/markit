@@ -1,117 +1,130 @@
-# 📘 Acadence – Automated Student Attendance Monitoring & Analytics System
-
-![Acadence Banner](https://img.shields.io/badge/Smart%20India%20Hackathon-2025-blue?style=for-the-badge)
-
-## 🚀 Overview
-
-Attendance tracking in colleges is still plagued by outdated methods such as roll calls and paper registers. These consume valuable teaching time, lead to errors, and open doors to issues like **proxy attendance**. In larger classrooms, the challenge escalates, creating inefficiencies and lack of visibility.
-
-**Acadence** is a next-gen **attendance automation and analytics platform** designed for higher education institutions. By integrating **QR codes, biometrics, or facial recognition**, Acadence eliminates manual processes and empowers faculty & administrators with real-time insights.
+# MARKIT 📱
+### Automated Student Attendance Monitoring and Analytics System for Colleges
+---
 
 ## 🎯 Problem Statement
 
-**“Automated Student Attendance Monitoring and Analytics System for Colleges”**
-*(Smart Education Theme – SIH 2025, Department of Higher Education, Government of Punjab)*
+**Attendance tracking in most Indian colleges is still done manually through roll calls or paper registers, consuming valuable teaching time and leading to errors like incorrect entries and proxy attendance.**
 
-## 🔎 Pain Points
-
-* ⏳ Time wasted on manual attendance.
-* ❌ Errors and proxy attendance issues.
-* 📉 Lack of actionable insights on student engagement.
-* 🏫 Difficulty in tracking patterns across large classes.
-* ⚡ Resistance to digital adoption in academic workflows.
-
-## 💡 Proposed Solution
-
-Acadence introduces a **seamless, reliable, and user-friendly system** that works both **offline & online**:
-
-* ✅ Automated attendance via **QR codes, biometrics, or facial recognition**.
-* ✅ **Cloud-based dashboard** for faculty & administrators.
-* ✅ **Analytics engine** to detect trends and identify at-risk students.
-* ✅ Cross-platform support for both in-person & online classes.
-
-## 🌍 Impact
-
-* ⏱️ Saves teaching hours every semester.
-* 🔒 Eliminates proxy attendance & increases transparency.
-* 📊 Provides insights for better academic planning.
-* 👨‍🏫 Helps faculty identify disengaged/struggling students early.
-* 📈 Supports the **digital transformation** of higher education.
-
-## 🧑‍🤝‍🧑 Stakeholders & Beneficiaries
-
-* 🎓 Students
-* 👨‍🏫 Faculty & Academic Administrators
-* 🏛️ College Management Bodies
-* 🏢 Education Departments & Policymakers
-
-## ⚙️ Core Features (Expected Outcomes)
-
-* 📲 **Smart Attendance** (QR / Biometrics / Face Recognition).
-* ☁️ **Cloud-based Attendance Records** (secure & centralized).
-* 📈 **Analytics Dashboard** (trends, engagement insights).
-* 🔄 **Hybrid Compatibility** (offline + online classes).
-
-## 🛠️ Tech Stack (To Be Finalized)
-
-Potential stack options include:
-
-* **Frontend:** React / Flutter / Angular
-* **Backend:** Node.js / Django / Spring Boot
-* **Database:** PostgreSQL / MongoDB / Firebase
-* **AI/ML (if face recognition is used):** OpenCV / TensorFlow / PyTorch
-* **Cloud & Hosting:** AWS / Azure / GCP
-
-## 📊 Competitor Analysis
-
-| Product / Tool       | Features                              | Gaps & Opportunities                  |
-| -------------------- | ------------------------------------- | ------------------------------------- |
-| **Google Classroom** | Class mgmt, assignments, online tools | No biometric/QR attendance            |
-| **MS Teams (Edu)**   | Online classes, attendance logs       | Limited analytics, no offline support |
-| **Byju’s / EdTech**  | Engagement + e-learning tools         | Not focused on attendance tracking    |
-
-✅ **Acadence’s USP:** Hybrid (online+offline), multi-tech attendance, analytics-first approach.
-
-## 📅 Roadmap
-
-* **Phase 1 (MVP):** QR-based attendance + cloud dashboard.
-* **Phase 2:** Biometric & Face recognition integration.
-* **Phase 3:** Advanced analytics (ML-based predictions for disengagement).
-
-## 🏆 Why Acadence?
-
-Acadence is more than just an attendance system — it’s a **data-driven academic enabler**. It converts attendance into **actionable insights**, reduces faculty burden, and helps institutions adopt **digital-first education management**.
+MARKIT addresses this persistent challenge by providing a **smart, QR-based attendance system** that eliminates proxy attendance while offering real-time analytics for better academic planning.
 
 ---
 
-## 📢 About SIH 2025
+## 🚀 Our Solution
 
-This project is developed under the **Smart India Hackathon 2025 – Smart Education Theme**.
-
-* Organization: **Government of Punjab**
-* Department: **Department of Higher Education**
-* Category: **Software**
-
----
-
-## 🤝 Contributors
-
-Team **Acadence** – Builders of Smart Education 🚀
+MARKIT is a **Smart Attendance System** designed to:
+-  **Eliminate proxy attendance** through dynamic QR codes
+-  **Reduce manual errors** and save teaching time  
+-  **Provide real-time analytics** for students, teachers, and administrators
 
 ---
 
-## 📽️ Demo & Resources
+## 🔥 Key Features (MVP)
 
-(Will be added after MVP build – prototype, screenshots, demo video)
+### For Students
+- **QR Code Scanning** - Quick attendance marking via dynamic QR codes
+- **Personal Analytics** - View attendance percentage and subject-wise breakdown
+- **Real-time Updates** - Instant confirmation of marked attendance
+- **Calendar View** - Track attendance patterns over time
+
+### For Teachers  
+- **Dynamic QR Generation** - Auto-refresh every 15 seconds + manual refresh option
+- **Live Attendance Tracking** - Real-time view of present/absent students
+- **Comprehensive Analytics** - Class-wise trends, defaulter identification
+- **Instant Reports** - Generate and export attendance reports
+
+### For Administrators
+- **Institution-wide Analytics** - College/university level insights
+- **User Management** - Manage students, faculty, and courses
+- **Compliance Reports** - Export defaulter reports for academic compliance
 
 ---
 
-## ⭐ Evaluator’s Verdict
+## 🛡️ Anti-Proxy Security
 
-Acadence directly addresses **time, accuracy, and engagement gaps** in college attendance. It is feasible as an MVP within 36 hours (starting with QR + Dashboard), scalable with biometrics & AI later, and impactful for stakeholders at multiple levels.
+### Dynamic QR Technology
+- **15-second auto-refresh** prevents QR sharing between students
+- **Manual refresh option** for teachers to instantly invalidate codes
+- **Time-bound validity** ensures attendance marking within class duration
+- **Audit trails** maintain complete attendance history
 
 ---
 
-> 💡 **Next Step:** Finalize your tech stack & MVP scope. Begin with QR + Dashboard, then expand.
-> 🎥 For inspiration, watch: [SIH 2025 Problem Statements Breakdown | Team Formation Plan](https://www.youtube.com/watch?v=nd4bBknAltk) – from the official **CodeHunters YouTube Channel**.
-> 📌 For deeper evaluator-style strategy, join the **Champions’ Blueprint Webinar** → [https://topmate.io/dasandcode/page/sYS7Te2ujC](https://topmate.io/dasandcode/page/sYS7Te2ujC) (use code **SIH30** for 30% off).
+## 🏗️ Tech Stack
+
+### **Frontend**
+- **React Native** with **Expo** - Cross-platform mobile app
+- **TypeScript** - Type-safe development
+- **Local Storage** - Offline data persistence
+- **React.js** - Teacher/Admin web dashboard
+- **JavaScript/TypeScript** - Frontend logic
+
+---
+
+## 🔍 Competitive Analysis
+
+| Product / Tool | Features | Gaps & Opportunities |
+| -------------- | -------- | -------------------- |
+| **Google Classroom** | Class management, assignments, basic attendance logs | No biometric/QR attendance, proxy attendance possible, limited analytics |
+| **MS Teams (Education)** | Online classes, meeting attendance, integration tools | No in-person attendance tracking, limited fraud prevention, basic reporting |
+| **Zoom/Meet Attendance** | Online class tracking, participant logs, easy setup | No verification, easy to fake presence, limited engagement tracking |
+| **Byju's / EdTech Platforms** | Engagement tracking, learning analytics, content delivery | Not focused on attendance, no in-person support, limited institutional use |
+
+---
+
+## 📊 Impact & Benefits
+
+| Stakeholder | Benefits |
+|-------------|----------|
+| **Students** | Effortless attendance, real-time analytics, transparency |
+| **Teachers** | Time savings, fraud prevention, detailed insights |
+| **Administration** | Compliance reporting, institution-wide analytics |
+| **Colleges** | Digital transformation, reduced operational costs |
+
+---
+
+## 🏆 Why MARKIT?
+
+### Current Problem in Indian Colleges:
+- Manual attendance wastes 10-15 minutes per class
+- Proxy attendance is widespread and undetectable  
+- Paper registers lead to errors and data loss
+- No real-time insights for academic planning
+
+### MARKIT Solution:
+-  **10-second attendance marking** via QR scan
+-  **Zero proxy attendance** with dynamic QR technology
+-  **100% digital records** with cloud backup
+-  **Real-time analytics** for all stakeholders
+
+---
+
+## 📈 Future Roadmap
+
+- **Biometric Integration** - Face recognition and fingerprint verification 
+- **Advanced Analytics** - AI-powered attendance predictions
+- **Mobile Notifications** - Smart alerts for students and teachers
+- **Offline Sync** - Works without internet connectivity
+
+---
+
+## 👥 Team Zero Argonauts
+
+We are a passionate team of developers committed to solving real-world problems in Indian education through innovative technology solutions.
+
+**Built for Smart India Hackathon 2025**
+
+---
+
+## 👨‍💻 Contributors
+
+### **Team Zero Argonauts:**
+
+- **@manasscodes
+- **@SujalAgre
+- **@gunjanisrani
+- **@codewnavya
+- **@Bhoomi-Chavan
+- **@gaganexcels
+
+*Making attendance effortless, transparent, and uncheatable for every Indian college.*
